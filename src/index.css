@@ -87,3 +87,25 @@ input[type="checkbox"]:checked ~ label {
   border-radius: 5px;
   outline: none;
 }
+
+@media screen and (max-width: 500px) {
+  .container {
+    padding: 20px 0px;
+    min-width: 200px;
+  }
+  .listContainer {
+    padding: 0 10px;
+  }
+  form {
+    padding: 0 10px;
+  }
+  .inputTodo {
+    width: 57%;
+  }
+  .btn {
+    padding: 15px 13px;
+  }
+  .App {
+    padding: 0 5px;
+  }
+}
